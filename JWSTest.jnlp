@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase= "\" 
+    href="JWSTest.jnlp">
+    <information>
+        <title>JWS Test</title>
+        <vendor>Riley McIntyre</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="JWSTest.jar"
+            main="true" />
+
+    </resources>
+    <application-desc
+         name="JWS Test"
+         main-class=
+           "FrameSub"
+         width="300"
+         height="300">
+     </application-desc>
+     <update check="background"/>
+</jnlp>                                   
