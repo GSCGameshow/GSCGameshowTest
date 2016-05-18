@@ -18,9 +18,14 @@
     
 
     <section class="main-content">
-<applet archive="theOnceAndFutureJar.jar" code="ClientWindow.class" height=500 width=500></applet> 
+<script src="https://www.java.com/js/deployJava.js"></script>
+<script>
+  var dir = location.href.substring(0,location.href.lastIndexOf('/')+1);
+  var url = dir + "JWSTest.jnlp";
+  deployJava.createWebStartLaunchButton(url, '1.7.0');
+</script>
 <p>
-  updated5
+  updated
 </p>
 
 </footer>
